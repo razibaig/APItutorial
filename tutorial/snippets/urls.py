@@ -1,9 +1,5 @@
 from django.conf.urls import url
 from snippets import views
-from rest_framework.urlpatterns import format_suffix_patterns
-from django.conf.urls import include
-from snippets.views import SnippetViewSet, UserViewSet
-from rest_framework import renderers
 from django.conf.urls import url, include
 from rest_framework.routers import DefaultRouter
 
